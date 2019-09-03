@@ -37,6 +37,7 @@ class Tester(object):
             options["proxy"] = real_proxy
             options["timeout"] = 5
             options["allow_redirects"] = False
+            options["verify_ssl"] = False
 
             response = await requests.get(**options)
             print(response.status)
