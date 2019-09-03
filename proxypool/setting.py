@@ -25,8 +25,7 @@ TESTER_CYCLE = 5
 GETTER_CYCLE = 60
 
 # 测试API，建议抓哪个网站测哪个
-TEST_URL = 'https://hotels.ctrip.com'
-
+TEST_URL = 'http://httpbin.org/get'
 # API配置
 API_HOST = '0.0.0.0'
 API_PORT = 5555
