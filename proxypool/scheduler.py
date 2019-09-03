@@ -3,7 +3,6 @@ from multiprocessing import Process
 from proxypool.api import app
 from proxypool.getter import Getter
 from proxypool.tester import Tester
-from proxypool.db import RedisClient
 from proxypool.setting import *
 
 

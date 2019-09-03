@@ -2,6 +2,7 @@ from .utils import get_page
 import ast
 
 
+# 收费代理的使用
 class ProxyMetaclass(type):
     def __new__(cls, name, bases, attrs):
         count = 0
