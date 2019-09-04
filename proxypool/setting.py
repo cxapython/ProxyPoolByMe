@@ -20,9 +20,9 @@ VALID_STATUS_CODES = [200, 302]
 POOL_UPPER_THRESHOLD = 100
 
 # 检查周期
-TESTER_CYCLE = 5
+TESTER_CYCLE = 60
 # 获取周期
-GETTER_CYCLE = 60
+GETTER_CYCLE = 30
 
 # 测试API，建议抓哪个网站测哪个
 TEST_URL = 'https://hotels.ctrip.com'

@@ -1,0 +1,5 @@
+ INFO ------ iRedis ------
+DEBUG [timer] start on 1567501224.773236
+DEBUG [timer 0] 0.00072908 -> [Loader] Start loading commands file...
+DEBUG [timer 1] 0.00350094 -> [Loader] Finished loading commands.
+ INFO [start args] host=127.0.0.1, port=6379, db=None, raw=False, cmd=(), decode=None.

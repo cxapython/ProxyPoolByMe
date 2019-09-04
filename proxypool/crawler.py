@@ -23,19 +23,35 @@ class Crawler(object, metaclass=ProxyMetaclass):
             proxies.append(proxy)
         return proxies
 
-    def crawl_ip3366(self):
+    # def crawl_ip3366(self):
+    #     """
+    #     购买的试用云代理
+    #     :param page_count: 页码
+    #     :return: 代理
+    #     """
+    #     start_url = 'http://ged.ip3366.net/api/?key=20190902165158891&getnum=100&anonymoustype=3&area=1&order=2&formats=2'
+    #     source = get_page(start_url)
+    #     if source:
+    #         proxy_list = ast.literal_eval(source)
+    #         print(proxy_list)
+    #         for item in proxy_list:
+    #             try:
+    #                 yield ':'.join([item.get("Ip"), str(item.get("Port"))])
+    #             except:
+    #                 pass
+    def crawl_daxiangdaili(self):
         """
         购买的试用云代理
         :param page_count: 页码
         :return: 代理
         """
-        start_url = 'http://ged.ip3366.net/api/?key=20190902165158891&getnum=30&anonymoustype=3&area=1&order=2&formats=2'
+        start_url = 'http://tpv.daxiangdaili.com/ip/?tid=555805049664387&num=20&delay=5&category=2&sortby=time&filter=on'
         source = get_page(start_url)
         if source:
-            proxy_list = ast.literal_eval(source)
+            proxy_list = source.split('\n')
             print(proxy_list)
             for item in proxy_list:
                 try:
-                    yield ':'.join([item.get("Ip"), str(item.get("Port"))])
+                    yield item.replace("\r","")
                 except:
                     pass
