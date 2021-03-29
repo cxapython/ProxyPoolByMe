@@ -75,7 +75,7 @@ py==1.8.0
 pyasn1==0.4.5
 pycares==3.0.0
 pycparser==2.19
-Pygments==2.4.2
+Pygments==2.7.4
 pymongo==3.9.0
 pyOpenSSL==18.0.0
 pyparsing==2.2.2
