@@ -96,7 +96,7 @@ traitlets==4.3.2
 typing==3.7.4.1
 typing-extensions==3.7.4
 uiautomator2==0.3.3
-urllib3==1.25.3
+urllib3==1.25.8
 urwid==2.0.1
 w3lib==1.21.0
 wcwidth==0.1.7
