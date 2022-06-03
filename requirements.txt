@@ -15,7 +15,7 @@ backcall==0.1.0
 baidu-aip==2.2.17.0
 beautifulsoup4==4.8.0
 blinker==1.4
-bottle==0.12.17
+bottle==0.12.20
 brotlipy==0.7.0
 bson==0.5.8
 cchardet==2.1.4
