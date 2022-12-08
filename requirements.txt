@@ -19,7 +19,7 @@ bottle==0.12.17
 brotlipy==0.7.0
 bson==0.5.8
 cchardet==2.1.4
-certifi==2019.6.16
+certifi==2022.12.7
 cffi==1.12.3
 chardet==3.0.4
 click==6.7
